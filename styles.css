@@ -1,0 +1,55 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: transparent;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bg {
+    height: 100%;
+    width: 100vw;
+    background-image: url('pics/nightcity.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: transparent;
+}
+
+.text-container {
+    background-color: black;
+    opacity: 0.75;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    
+}
+
+h1,h2,h3,p {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic-container {
+    margin-top: 20px;
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.gitlink {
+    color: white;
+}
